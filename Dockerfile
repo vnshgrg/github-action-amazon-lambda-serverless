@@ -1,11 +1,11 @@
-FROM nikolaik/python-nodejs:python3.9-nodejs14-alpine
+FROM amazon/aws-lambda-nodejs
 
 LABEL version="1.0.0"
-LABEL repository="https://github.com/serverless/github-action"
-LABEL homepage="https://github.com/serverless/github-action"
-LABEL maintainer="Serverless, Inc. <hello@serverless.com> (https://serverless.com)"
+LABEL repository="https://github.com/vnshgrg/github-action-amazon-lambda-serverless"
+LABEL homepage="https://github.com/vnshgrg/github-action-amazon-lambda-serverless"
+LABEL maintainer="Avinash"
 
-LABEL "com.github.actions.name"="Serverless"
+LABEL "com.github.actions.name"="Serverless on AWS Lambda NodeJS"
 LABEL "com.github.actions.description"="Wraps the Serverless Framework to enable common Serverless commands."
 LABEL "com.github.actions.icon"="zap"
 LABEL "com.github.actions.color"="red"
