@@ -1,6 +1,6 @@
 FROM amazon/aws-lambda-nodejs
 
-LABEL version="1.0.0"
+LABEL version="1.0.1"
 LABEL repository="https://github.com/vnshgrg/github-action-amazon-lambda-serverless"
 LABEL homepage="https://github.com/vnshgrg/github-action-amazon-lambda-serverless"
 LABEL maintainer="Avinash"
